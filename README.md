@@ -1,8 +1,6 @@
 # C++ Limit Order Book Simulator
 
-This project is a high-performance C++ simulator for a financial limit order book (LOB). 
-
-I built this to explore the core mechanics of market exchanges and to provide a robust framework for implementing and testing algorithmic trading strategies.
+This project is a C++ simulator for a financial limit order book. 
 
 The simulator includes a C++ implementation of the Avellaneda-Stoikov market-making model, which dynamically adjusts bid and ask quotes based on factors like inventory risk and market volatility.
 
