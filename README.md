@@ -14,35 +14,3 @@ The simulator includes a C++ implementation of the Avellaneda-Stoikov market-mak
 * **Top-of-Book Queries**: Efficiently query the current best bid and ask prices.
 * **Advanced Strategy Implementation**: Includes baseline market-making and the Avellaneda-Stoikov market-making model.
 
----
-
-## Getting Started
-
-### Prerequisites
-
-* **CMake** (version 3.10 or higher)
-* A modern C++ compiler that supports C++17 (e.g., **Clang++**, **GCC**)
-
-### Build Instructions
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-repo-url>
-    cd <your-repo-directory>
-    ```
-
-2.  **Configure and build the project using CMake:**
-    ```bash
-    # Create a build directory
-    cmake -S . -B build -DCMAKE_CXX_COMPILER=clang++
-
-    # Compile the project
-    cmake --build build
-    ```
-
-### Running the Simulator
-
-Execute the main application from the project's root directory:
-
-```bash
-./build/orderbook
